@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod +x /Users/kimjunsoo/Desktop/email_sender/gradlew)",
+      "Bash(./gradlew build *)",
+      "Bash(./gradlew bootRun)",
+      "Bash(curl -s http://localhost:8080/h2-console)",
+      "Bash(kill %1)",
+      "Bash(wait)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8080/h2-console)",
+      "Bash(lsof -ti:8080)",
+      "Bash(xargs kill)"
+    ]
+  }
+}
